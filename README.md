@@ -71,7 +71,7 @@
 
 - GitHub: [@frempongdev](https://github.com/frempongdev)
 - Twitter: [@knobaddy](https://twitter.com/knobaddy)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [Samuel knower Amankwaa-Frempong](https://www.linkedin.com/in/samuel-knower-amankwaa-frempong-356802256/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
