@@ -31,7 +31,7 @@
 # 📖 [Personal Portfoli] <a name="about-project"></a>
 
 
-**Personal-Portfolio** is a the first GitHub Repositiory to show my cosing skill.
+**Personal-Portfolio** is  the first GitHub Repositiory to show my coding skill.
 
 ## 🛠 Built With <a name="built-with"></a>
 
