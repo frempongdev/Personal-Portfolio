@@ -2,11 +2,8 @@
   body {
     margin-left: 0.1px;
     margin-right: 0.1px;
-  }
-
-  .page-wrapper {
     font-family: 'Poppins', sans-serif;
-    height: 718px;
+    height: 100vh;
   }
 
   .head-top {
@@ -26,13 +23,14 @@
   }
 
   .headline {
-    height: 85%;
+    height: 100%;
     background: #ffff url(assets/mobile/header-shapes\ mobile.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 100px;
   }
 
   .intro-phrase h1 {
@@ -45,7 +43,7 @@
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 0.1px;
-    margin-top: 0.1px;
+    margin-top: 95px;
   }
 
   .intro-paragraph p {
