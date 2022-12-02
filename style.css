@@ -1,4 +1,9 @@
 @media screen and (max-width: 375px) {
+  body {
+    margin-left: 0.1px;
+    margin-right: 0.1px;
+  }
+
   .page-wrapper {
     font-family: 'Poppins', sans-serif;
     height: 718px;
@@ -8,8 +13,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .nav-wrapper {
@@ -70,7 +75,7 @@
     padding-left: 10px;
     padding-right: 10px;
     justify-self: flex-start;
-    margin-top: 0.1px;
+    margin-top: 10px;
     margin-bottom: 0.1px;
   }
 
@@ -81,7 +86,8 @@
 
   .social-list-wrapper {
     list-style: none;
-    padding-left: 0.1px;
+    padding-left: 10px;
+    padding-bottom: 15px;
     display: flex;
     flex: 2;
     justify-self: start;
@@ -93,4 +99,5 @@
   .social-list-wrapper li {
     justify-content: start;
   }
+
 }
