@@ -8,7 +8,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10px 0px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .nav-wrapper {
@@ -16,68 +17,87 @@
   }
 
   .head-top h2 {
-    color: #6070FF;
+    color: #6070ff;
   }
 
   .headline {
-    height: 100vh;
+    height: 85%;
     border: green solid 2px;
-    background: #FFFFFF url(assets/mobile/header-shapes\ mobile.png);
+    background: #ffff url(assets/mobile/header-shapes\ mobile.png);
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     margin: 0px -10px 0px -10px;
-    padding: 0px 10px 0px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .intro-phrase h1 {
-    color: #172B4D;
+    color: #172b4d;
     font-size: 40px;
-    padding: 0px 10px 0px 10px;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     flex: 2;
     font-weight: 700;
     line-height: 52px;
-    /* justify-self: center; */
     border: orangered solid 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0.1px;
+    margin-top: 0.1px;
   }
 
   .intro-paragraph p {
     border: orangered solid 2px;
-    padding: 0px 10px 0px 10px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     flex: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0.1px;
+
   }
 
   .connect-wrapper {
-    border: orangered solid 2px;
+    height: 100px;
+    border: aqua solid 2px;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-     
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .connect-wrapper h3 {
+    height: 5px;
     color: #7f8cff;
     font-weight: 500;
-    padding: 0px 10px 0px 10px;
     line-height: 24px;
     flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-self: flex-start;
+    margin-top: 0.1px;
+    margin-bottom: 0.1px;
   }
-    
+
   .social-wrapper {
-    flex: 3;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .social-list-wrapper {
-    border: red solid 2px;
+    border: rgb(137, 126, 126) solid 2px;
     list-style: none;
-    padding-left: 0px;   
+    padding-left: 0.1px;
     display: flex;
-    flex: 2; 
-    justify-content: space-evenly;
-    width: 221.17px;
+    flex: 2;
+    justify-self: start;
+    justify-content: space-between;
+    width: 170.17px;
+    margin-top: 0.1px;
+  }
+
+  .social-list-wrapper li {
+    justify-content: start;
   }
 }
