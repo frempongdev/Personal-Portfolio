@@ -1,9 +1,9 @@
 @media screen and (max-width: 375px) {
-      .page-wrapper {
-            font-family: 'Poppins', sans-serif;
+  .page-wrapper {
+    font-family: 'Poppins', sans-serif;
             height: 718px;
       }
-      
+
     .head-top{
         display: flex;
         justify-content: space-between;
