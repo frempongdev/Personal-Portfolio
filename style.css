@@ -22,7 +22,6 @@
 
   .headline {
     height: 85%;
-    border: green solid 2px;
     background: #ffff url(assets/mobile/header-shapes\ mobile.png);
     display: flex;
     flex-direction: column;
@@ -38,7 +37,6 @@
     flex: 2;
     font-weight: 700;
     line-height: 52px;
-    border: orangered solid 2px;
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 0.1px;
@@ -46,7 +44,6 @@
   }
 
   .intro-paragraph p {
-    border: orangered solid 2px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -58,7 +55,6 @@
 
   .connect-wrapper {
     height: 100px;
-    border: aqua solid 2px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -84,7 +80,6 @@
   }
 
   .social-list-wrapper {
-    border: rgb(137, 126, 126) solid 2px;
     list-style: none;
     padding-left: 0.1px;
     display: flex;
@@ -98,5 +93,4 @@
   .social-list-wrapper li {
     justify-content: start;
   }
-
 }
