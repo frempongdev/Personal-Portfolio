@@ -27,7 +27,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px -10px 0px -10px;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -55,7 +54,6 @@
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 0.1px;
-
   }
 
   .connect-wrapper {
@@ -100,4 +98,5 @@
   .social-list-wrapper li {
     justify-content: start;
   }
+
 }
