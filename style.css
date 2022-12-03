@@ -115,10 +115,8 @@
   .works-wrapper {
     padding: 20px;
     height: 700px;
-    margin-bottom: 200px; /* remove this -------------------*/
-
-
   }
+
   .works-section {
     background-color: white;
     margin-top: 144px;
@@ -128,20 +126,15 @@
     display: grid;
     grid-template-rows: 40% 40% 20%;
     padding: 15px;
-    
-  
   }
 
   .work-snapshot img {
     width: 100%;
-
   }
 
   .work-description {
     display: flex;
     justify-content: start;
-    
-
   }
   
   .desc-wrapper h2{
@@ -167,10 +160,9 @@
     line-height: 24px;
     font-weight: 500;
     letter-spacing: 0.03em;
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
-
-}
+  }
 
   .desc-wrapper{
     display: flex;
@@ -184,7 +176,7 @@
     display: flex;
     align-content: flex-start;
     justify-content: space-between;
-    width: 75%;
+    width: 85%;
   }
   
   .dec-details > h4 {
@@ -193,6 +185,10 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
+  }
+
+  .grey-text {
+    color: #7a869a;
   }
 
   .mobile-dot {
@@ -212,7 +208,7 @@
 
   .work-tech ul {
     display: flex;
-    width: 65%;
+    width: 75%;
     justify-content: space-between;
     padding-left: 0.01px;
   }
@@ -223,5 +219,12 @@
     padding: 4px 12px;
     list-style: none;
     color: #6070ff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
    }
+
+  .multi-edit{
+    margin-top: 40px;
+  }
 }
