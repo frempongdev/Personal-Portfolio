@@ -227,7 +227,7 @@
 
   /* ABOUT Section begins HERE------------------------------------------------------------ */
 
-  .about{
+  .about {
     background: #ffff url(assets/mobile/header-background-mobile.png);
     margin-top: 150px;
   }
@@ -272,7 +272,6 @@
     background-color: #f7f7f9;
     padding-left: 10px;
     margin-bottom: 8px;
-
   }
 
   .JS img {
@@ -323,6 +322,5 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 24;
-
   }
 }
