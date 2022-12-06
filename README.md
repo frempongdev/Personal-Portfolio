@@ -65,6 +65,54 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need to copy the link of this Repository.
+
+
+
+```sh
+ https://github.com/frempongdev/Personal-Portfolio.git
+```
+<br>
+
+### Setup
+
+Clone this repository to your desired directory using the command: 
+
+
+```sh
+  cd your-folder
+  git clone https://github.com/frempongdev/Personal-Portfolio.git 
+```
+
+<br>
+
+
+### Usage
+
+Kindly go ahead and give this project a massage but do not forget to give a detailed description in your pull request.
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
@@ -74,6 +122,17 @@
 - LinkedIn: [Samuel knower Amankwaa-Frempong](https://www.linkedin.com/in/samuel-knower-amankwaa-frempong-356802256/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[Contact Form]**
+- [ ] **[Responsive SIte  adjustments]**
+- [ ] **[new_feature_3]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- SUPPORT -->
 
@@ -89,6 +148,7 @@ If you like this project kindly support by suggesting changed by forking and pul
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank  everyone who inspired me to learn programming. 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
