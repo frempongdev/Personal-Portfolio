@@ -150,10 +150,22 @@
   .see-work {
     display: flex;
   }
-  
 
+  /* .see-work a {
+    color: #396df2;
+    border: solid #396df2 1px;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 15px;
+    text-decoration: none;
+  } */
   
-  .see-work a {
+  .see-work button {
+    background-color: white;
     color: #396df2;
     border: solid #396df2 1px;
     border-radius: 10px;
@@ -166,16 +178,14 @@
     text-decoration: none;
   }
   
-  .see-work a:visited {
-    color: green;
+  .see-work button:hover {
+    background-color: #6070ff;
+    color: white;
   }
-  .see-work a:link {
-    color: red;
+  .see-work button:focus {
+    color: white;
+    background-color: #2230d2;
   }
-  
- 
-
-
 
   .desc-wrapper {
     display: flex;
@@ -376,7 +386,4 @@
     font-weight: 600;
     line-height: 24px;
   }
-
-
-
 }
