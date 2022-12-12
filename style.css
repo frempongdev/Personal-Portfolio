@@ -227,11 +227,20 @@
     margin-bottom: 0.01px;
   }
 
-  .work-tech ul {
+  /* .work-tech ul {
     display: flex;
     width: 75%;
     justify-content: space-between;
     padding-left: 0.01px;
+  } */
+
+  .work-tech {
+    margin-left: 0px;
+  }
+
+  .work-tech li {
+    float: left;
+    margin-right: 20px;
   }
 
   .work-tech li {
