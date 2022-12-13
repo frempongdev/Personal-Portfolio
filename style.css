@@ -165,6 +165,16 @@
     text-decoration: none;
   }
 
+  .forms-container form button:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .forms-container form button:focus {
+    color: white;
+    background-color: #2230d2;
+  }
+
   .see-work button:hover {
     background-color: #6070ff;
     color: white;
@@ -461,15 +471,5 @@
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: white;
-  }
-
-  .forms-container form button:hover {
-    background-color: #6070ff;
-    color: white;
-  }
-
-  .forms-container form button:focus {
-    color: white;
-    background-color: #2230d2;
   }
 }
