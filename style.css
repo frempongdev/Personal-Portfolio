@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
   body {
     background-color: #e5e5e5;
+    margin-top: 0.01px;
     margin-left: 0.1px;
     margin-right: 0.1px;
     font-family: 'Poppins', sans-serif;
@@ -274,7 +275,7 @@
   .about {
     background: #ffff url(assets/mobile/header-background-mobile.png);
     margin-top: 150px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
   }
 
   .resume-button {
@@ -402,13 +403,15 @@
   /* CONTACT SECTION STARTS HERE ------------------------------------------------ */
 
   .forms-section {
+    background-color: white;
+  }
+
+  .footer-container {
     background-color: #6070ff;
     background-image: url(assets/mobile/contact\ background.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-top-left-radius: 70px;
-    position: relative;
-    top: -80px;
   }
 
   .contact-info {
