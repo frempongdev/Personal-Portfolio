@@ -264,6 +264,7 @@
   .about {
     background: #ffff url(assets/mobile/header-background-mobile.png);
     margin-top: 150px;
+    padding-bottom: 200px;
   }
 
   .resume-button {
@@ -393,11 +394,12 @@
   .forms-section {
     background-color: #6070ff;
     background-image: url(assets/mobile/contact\ background.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 160vh;
     border-radius: 70px 0px 0px 0px;
-  }
+    position: relative;
+    top: -80px;
+ }
 
   .contact-info {
     padding-top: 180px;
@@ -421,5 +423,66 @@
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .forms-container {
+    padding: 30px;
+  }
+
+  .forms-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    }
+
+  .forms-container form > * {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .forms-container form input {
+    border-radius: 8px;
+    border: none;
+    width: 90%;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #172b4d;
+  }
+
+  .forms-container form textarea {
+    border-radius: 8px;
+    border: none;
+    width: 84%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #b3bac5;
+    padding-right: 38px;
+  }
+
+  .forms-container form button {
+    align-self: flex-start;
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #6070ff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: white;
+  }
+
+  .forms-container form button:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .forms-container form button:hover {
+    color: white;
+    background-color: #2230d2;
   }
 }

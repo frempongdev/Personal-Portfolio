@@ -395,25 +395,8 @@
         </div>
         <div class="forms-container">
           <form action="https://formspree.io/f/xyyvrqgw" method="POST">
-            <input
-              type="text"
-              name="name-text"
-              id="user-name"
-              required
-              minlength="1"
-              maxlength="30"
-              placeholder="Enter your name"
-            />
-
-            <input
-              type="email"
-              name="email"
-              id="user-name"
-              placeholder="Enter your email"
-              required
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-              name="Email"
-            />
+            <input type="text" name="name-text" id="user-name" required minlength="1" maxlength="30" placeholder="Enter your name"/>
+            <input type="email" name="email" id="contact-user-name" placeholder="Enter your email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
 
             <textarea
               name="message-box"
@@ -422,7 +405,7 @@
               placeholder="Write your message here"
               maxlength="500"
               cols="30"
-              rows="10"
+              rows="7"
             ></textarea>
 
             <button type="submit" name="submit" id="submit-button">
