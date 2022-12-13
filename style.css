@@ -386,13 +386,13 @@
     border-top-left-radius: 70px;
     position: relative;
     top: -80px;
- }
+  }
 
- .contact-info {
+  .contact-info {
     padding-top: 180px;
     display: flex;
     flex-direction: column;
- }
+  }
 
   .contact-info header {
     color: white;
