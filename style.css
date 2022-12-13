@@ -165,22 +165,35 @@
     text-decoration: none;
   }
 
-  .forms-container form button:hover {
-    background-color: #6070ff;
-    color: white;
+  .forms-container form button {
+    align-self: flex-start;
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #6070ff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: white;
   }
-
-  .forms-container form button:focus {
-    color: white;
-    background-color: #2230d2;
-  }
-
+  
   .see-work button:hover {
     background-color: #6070ff;
     color: white;
   }
-
+  
+  .forms-container form button:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+  
   .see-work button:focus {
+      color: white;
+      background-color: #2230d2;
+  }
+
+  .forms-container form button:focus {
     color: white;
     background-color: #2230d2;
   }
@@ -458,18 +471,5 @@
     line-height: 24px;
     color: #b3bac5;
     padding-right: 38px;
-  }
-
-  .forms-container form button {
-    align-self: flex-start;
-    border-radius: 8px;
-    border: none;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #6070ff;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: white;
   }
 }
