@@ -387,4 +387,39 @@
     font-weight: 600;
     line-height: 24px;
   }
+
+  /* CONTACT SECTION STARTS HERE ------------------------------------------------ */
+
+  .forms-section {
+    background-color: #6070ff;
+    background-image: url(assets/mobile/contact\ background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 160vh;
+    border-radius: 70px 0px 0px 0px;
+  }
+
+  .contact-info {
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-info header {
+    color: white;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+    align-self: center;
+  }
+
+  .contact-info p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
