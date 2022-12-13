@@ -182,10 +182,10 @@
     background-color: #6070ff;
     color: white;
   }
-  
+
   .see-work button:focus {
-      color: white;
-      background-color: #2230d2;
+    color: white;
+    background-color: #2230d2;
   }
 
   .forms-container form button:hover {
