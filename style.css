@@ -151,19 +151,6 @@
     display: flex;
   }
 
-  /* .see-work a {
-    color: #396df2;
-    border: solid #396df2 1px;
-    border-radius: 10px;
-    align-self: center;
-    font-size: 17px;
-    line-height: 24px;
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    padding: 15px;
-    text-decoration: none;
-  } */
-
   .see-work button {
     background-color: white;
     color: #396df2;
@@ -396,16 +383,16 @@
     background-image: url(assets/mobile/contact\ background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 70px 0px 0px 0px;
+    border-top-left-radius: 70px;
     position: relative;
     top: -80px;
  }
 
-  .contact-info {
+ .contact-info {
     padding-top: 180px;
     display: flex;
     flex-direction: column;
-  }
+ }
 
   .contact-info header {
     color: white;
@@ -434,7 +421,7 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    }
+  }
 
   .forms-container form > * {
     margin-bottom: 20px;
@@ -481,7 +468,7 @@
     color: white;
   }
 
-  .forms-container form button:hover {
+  .forms-container form button:focus {
     color: white;
     background-color: #2230d2;
   }
