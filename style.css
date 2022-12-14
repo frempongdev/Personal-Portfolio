@@ -136,6 +136,7 @@
 
   .work-description {
     display: flex;
+    flex-direction: column;
     justify-content: start;
   }
 
@@ -241,7 +242,7 @@
 
   .work-tech ul {
     display: flex;
-    width: 75%;
+    width: 60%;
     justify-content: space-between;
     padding-left: 0.01px;
   }
@@ -258,7 +259,7 @@
   }
 
   .multi-edit {
-    margin-top: 40px;
+    margin-top: 10px;
   }
 
   /* ABOUT Section begins HERE------------------------------------------------------------ */
@@ -478,7 +479,7 @@
   }
 }
 
- @media screen and (min-width: 768px) {/*DESKTOP VERSION------------------------------------------------------------------- */
+ @media screen and (min-width: 769px) {/*DESKTOP VERSION------------------------------------------------------------------- */
   body {
     font-family: 'Poppins', sans-serif;
     background-color: #e5e5e5;
@@ -493,8 +494,8 @@
     justify-content: space-between;
     height: 50px;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
   .head-top a {
@@ -529,6 +530,7 @@
   }
   
   .headline {
+    width: 100%;
     height: 90vh;
     background: #ffff url(assets/desktop/Header\ bg.png);
     background-size: contain;
@@ -539,12 +541,13 @@
     justify-content: center;
     border-bottom-left-radius: 100px;
     margin-bottom: 142px;
+    padding-top: 80px;
 
   }
 
   .headline > * {
-    padding-left: 200px;
-    padding-right: 210px;
+    padding-left: 250px;
+    padding-right: 260px;
   }
 
   .intro-phrase h1 {
@@ -559,11 +562,12 @@
 
   .intro-paragraph p {
     color: #344563;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 28px;
     margin-top: 12px;
     margin-bottom: 0.01px;
+    width: 90%;
   }
 
   .connect-wrapper h3 {
@@ -584,5 +588,26 @@
 
   .social-list-wrapper li {
     margin-right: 19px;
+  }
+
+  /* INTRO PAGE ENDS HERE --------------------------------------------------------- */
+
+  .works-wrapper {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .works-section {
+    border: red dotted 2px;
+    border-radius: 24px;
+    background-color: white;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 180px;
+    padding: 24px;
+    align-items: center;
+
   }
 }
