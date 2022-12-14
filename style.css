@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {/*MOBILE VERSION------------------------------------------------------------------- */
   body {
     background-color: #e5e5e5;
     margin-top: 0.01px;
@@ -474,5 +474,78 @@
     line-height: 24px;
     color: #b3bac5;
     padding-right: 38px;
+  }
+}
+
+ @media screen and (min-width: 768px) {/*DESKTOP VERSION------------------------------------------------------------------- */
+  body {
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  .head-top {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .head-top a {
+    text-decoration: none;
+  }
+
+  .nav-icon {
+    display: none;
+  }
+
+  .main-nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .main-nav ul li {
+    margin-right: 10px;
+  }
+  
+  .main-nav ul li a {
+    color: #344563;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .head-top a {
+    color: #6070ff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  
+  .headline {
+    height: 100vh;
+    background: #ffff url(assets/desktop/Header\ bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+  }
+
+  .headline > * {
+    padding-left: 220px;
+    padding-right: 200px;
+  }
+
+  .intro-phrase h1 {
+    color: #172b4d;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.37px;
   }
 }
