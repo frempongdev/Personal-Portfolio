@@ -7,6 +7,14 @@
     font-family: 'Poppins', sans-serif;
   }
 
+  .desktop-pic {
+    display: none;
+  }
+
+  .desktop-text {
+    display: none;
+  }
+
   .head-top {
     background-color: white;
     display: flex;
@@ -484,6 +492,10 @@
     font-family: 'Poppins', sans-serif;
     background-color: #e5e5e5;
     margin-top: 0.001px;
+  }
+
+  .mobile-text {
+    display: none;
   }
 
   .head-top {
