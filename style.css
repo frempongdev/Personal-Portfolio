@@ -892,7 +892,6 @@
 
   .forms-section {
     background-color: white;
-    height: 100vh;
   }
 
   .footer-container {
@@ -902,7 +901,6 @@
     background-repeat: no-repeat;
     border-top-left-radius: 100px;
     width: 100%;
-    height: 100%;
   }
 
   .contact-info {
