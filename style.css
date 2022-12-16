@@ -662,7 +662,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 82%;
+    width: 50%;
   }
 
   .dec-details img {
@@ -699,9 +699,13 @@
 
   .work-tech ul {
     display: flex;
-    width: 70%;
+    width: 45%;
     justify-content: space-between;
     padding-left: 0.01px;
+  }
+
+  .small-ul-spacing ul {
+    width: 30%;
   }
 
   .see-work button {
