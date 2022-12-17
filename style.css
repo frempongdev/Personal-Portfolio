@@ -494,6 +494,7 @@
     font-family: "Poppins", sans-serif;
     background-color: #e5e5e5;
     margin-top: 0.001px;
+    margin-bottom: 0.001px;
   }
 
   .mobile-text {
@@ -552,7 +553,7 @@
     font-weight: 700;
     line-height: 20px;
     text-decoration: none;
-    animation: rotation 1s ease-in-out;
+    animation: rotation 2s cubic-bezier(1,-0.42, 0.56, 0.99);
   }
 
   @keyframes rotation {
@@ -576,7 +577,7 @@
     width: 100%;
     height: 90vh;
     background: #ffff url(assets/desktop/Header\ bg.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -600,6 +601,7 @@
     letter-spacing: 0.37px;
     margin-bottom: 0.01px;
     margin-top: -110px;
+    transform-origin: 0% 100%;
     animation: grow 5s ease-out;
     animation-fill-mode: forwards;
   }
@@ -702,7 +704,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 55%;
   }
 
   .desc-wrapper h2 {
@@ -734,13 +736,13 @@
 
   .work-tech ul {
     display: flex;
-    width: 45%;
+    width: 55%;
     justify-content: space-between;
     padding-left: 0.01px;
   }
 
   .small-ul-spacing ul {
-    width: 30%;
+    width: 35%;
   }
 
   .see-work button {
