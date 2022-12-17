@@ -553,7 +553,7 @@
     font-weight: 700;
     line-height: 20px;
     text-decoration: none;
-    animation: rotation 2s cubic-bezier(1,-0.42, 0.56, 0.99);
+    animation: rotation 2s cubic-bezier(1, -0.42, 0.56, 0.99);
   }
 
   @keyframes rotation {
