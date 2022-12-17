@@ -1,10 +1,11 @@
-@media screen and (max-width: 768px) {/* MOBILE VERSION------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  /* MOBILE VERSION------------------------------------------------------------------- */
   body {
     background-color: #e5e5e5;
     margin-top: 0.01px;
     margin-left: 0.1px;
     margin-right: 0.1px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .desktop-pic {
@@ -149,7 +150,7 @@
   }
 
   .desc-wrapper h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
@@ -219,7 +220,7 @@
     display: flex;
     align-content: flex-start;
     justify-content: space-between;
-    width: 85%;
+    width: 65%;
   }
 
   .dec-details > h4 {
@@ -456,13 +457,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .forms-container form > * {
     margin-bottom: 20px;
     padding: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .forms-container form input {
@@ -487,11 +488,13 @@
   }
 }
 
-@media screen and (min-width: 769px) {/* DESKTOP VERSION------------------------------------------------------------------- */
+@media screen and (min-width: 769px) {
+  /* DESKTOP VERSION------------------------------------------------------------------- */
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: #e5e5e5;
     margin-top: 0.001px;
+    margin-bottom: 0.001px;
   }
 
   .mobile-text {
@@ -550,6 +553,17 @@
     font-weight: 700;
     line-height: 20px;
     text-decoration: none;
+    animation: rotation 2s cubic-bezier(1, -0.42, 0.56, 0.99);
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
   }
 
   .main-nav ul li a {
@@ -563,7 +577,7 @@
     width: 100%;
     height: 90vh;
     background: #ffff url(assets/desktop/Header\ bg.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -587,6 +601,19 @@
     letter-spacing: 0.37px;
     margin-bottom: 0.01px;
     margin-top: -110px;
+    transform-origin: 0% 100%;
+    animation: grow 5s ease-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes grow {
+    from {
+      transform: scale(1);
+    }
+
+    to {
+      transform: scale(1.3);
+    }
   }
 
   .intro-paragraph p {
@@ -645,6 +672,21 @@
 
   .work-snapshot img {
     width: 100%;
+    transition: width 1s ease-in 0.15s;
+  }
+
+  .dec-details img {
+    height: 10px;
+    width: 10px;
+  }
+
+  .language-list-container li img {
+    width: 50%;
+    margin-bottom: 5px;
+  }
+
+  .work-snapshot img:hover {
+    width: 105%;
   }
 
   .work-description {
@@ -662,16 +704,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
-  }
-
-  .dec-details img {
-    height: 10px;
-    width: 10px;
+    width: 55%;
   }
 
   .desc-wrapper h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -699,13 +736,13 @@
 
   .work-tech ul {
     display: flex;
-    width: 45%;
+    width: 55%;
     justify-content: space-between;
     padding-left: 0.01px;
   }
 
   .small-ul-spacing ul {
-    width: 30%;
+    width: 35%;
   }
 
   .see-work button {
@@ -721,6 +758,7 @@
     padding: 15px;
     text-decoration: none;
     margin-top: 20px;
+    transition: all 1s ease 0.1s;
   }
 
   .forms-container form button {
@@ -840,11 +878,6 @@
     column-gap: 8px;
   }
 
-  .language-list-container li img {
-    width: 50%;
-    margin-bottom: 5px;
-  }
-
   .JS {
     font-weight: 500;
     font-size: 15px;
@@ -931,19 +964,24 @@
     padding-left: 40px;
     padding-right: 40px;
     width: 35%;
+    transition: 1s ease-in 0.4s;
+  }
+
+  .contact-info p:hover {
+    transform: translate(10%);
   }
 
   .forms-container form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .forms-container form > * {
     margin-bottom: 20px;
     padding: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .forms-container form input {
