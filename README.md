@@ -30,7 +30,7 @@
 
 <!-- DEPLOYMENT -->
 ### This project goes live [here](https://frempongdev.github.io/Personal-Portfolio/) 🚀 .
-If link does not wok copy URL ( https://frempongdev.github.io/Personal-Portfolio/ )
+If link does not work copy URL ( https://frempongdev.github.io/Personal-Portfolio/ )
 
 <br>
 
