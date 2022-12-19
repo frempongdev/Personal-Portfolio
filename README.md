@@ -26,6 +26,14 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
+<br>
+
+<!-- DEPLOYMENT -->
+### This project goes live [here](https://frempongdev.github.io/Personal-Portfolio/) 🚀 .
+If link does not work copy URL ( https://frempongdev.github.io/Personal-Portfolio/ )
+
+<br>
+
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Personal Portfoli] <a name="about-project"></a>
@@ -129,7 +137,7 @@ Example command:
 
 - [ ] **[Contact Form]**
 - [ ] **[Responsive SIte  adjustments]**
-- [ ] **[new_feature_3]**
+- [ ] **[Individual Sites Developed]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
