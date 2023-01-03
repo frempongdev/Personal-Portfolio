@@ -27,12 +27,12 @@ function showMenu() {
   navIcon.parentElement.insertBefore(closeBtn, navIcon);
 }
 
-// function hideMenu() {
-//   container.removeChild(mobileNavBg);
-//   navIcon.classList.toggle('mobile-nav');
-//   navIcon.parentElement.removeChild(closeBtn);
-//   mobileNav.classList.remove('unhide-nav');
-// }
+function hideMenu() {
+  container.removeChild(mobileNavBg);
+  navIcon.classList.toggle('mobile-nav');
+  navIcon.parentElement.removeChild(closeBtn);
+  mobileNav.classList.remove('unhide-nav');
+}
 
 // for (let i = 0; i < menuItem.length; i + 1) {
 //   menuItem[i].addEventListener('click', () => {
