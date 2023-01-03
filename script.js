@@ -34,15 +34,16 @@ function hideMenu() {
   mobileNav.classList.remove('unhide-nav');
 }
 
-for (let i = 0; i < menuItem.length; i + 1) {
-  menuItem[i].addEventListener('click', () => {
+menuItem.forEach((item) => {
+  item.addEventListener('click', () => {
     hideMenu();
   });
-}
+});
 
-// // calling all listeners
 
-// // Hiding Nav Icon
-// navIcon.addEventListener('click', vanish);
-// navIcon.addEventListener('click', showMenu);
-// closeBtn.addEventListener('click', hideMenu);
+// calling all listeners
+
+// Hiding Nav Icon
+navIcon.addEventListener('click', vanish);
+navIcon.addEventListener('click', showMenu);
+closeBtn.addEventListener('click', hideMenu);
