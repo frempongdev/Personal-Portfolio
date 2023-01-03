@@ -18,14 +18,14 @@ function showMenu() {
   const header = document.querySelector('.head-top');
   container.insertBefore(mobileNavBg, header);
 
-  // styling the backgroung
-  mobileNavBg.classList.add('bg-style');
-  mobileNavBg.classList.toggle('mobile-nav');
+//   // styling the backgroung
+//   mobileNavBg.classList.add('bg-style');
+//   mobileNavBg.classList.toggle('mobile-nav');
 
-  // creating close button
-  closeBtn.innerHTML = 'x';
-  navIcon.parentElement.insertBefore(closeBtn, navIcon);
-}
+//   // creating close button
+//   closeBtn.innerHTML = 'x';
+//   navIcon.parentElement.insertBefore(closeBtn, navIcon);
+// }
 
 // function hideMenu() {
 //   container.removeChild(mobileNavBg);
