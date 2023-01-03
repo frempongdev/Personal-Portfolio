@@ -7,12 +7,12 @@ const menuItem = document.querySelectorAll('.nav-wrapper li a');
 
 closeBtn.classList = 'x-btn';
 
-// function vanish() {
-//   navIcon.classList.toggle('mobile-nav');
+function vanish() {
+  navIcon.classList.toggle('mobile-nav');
 
-//   // unhide all mbile nav items
-//   mobileNav.classList.toggle('unhide-nav', 'nav-wrapper');
-// }
+  // unhide all mbile nav items
+  mobileNav.classList.toggle('unhide-nav', 'nav-wrapper');
+}
 
 // function showMenu() {
 //   const header = document.querySelector('.head-top');
