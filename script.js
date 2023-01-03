@@ -40,7 +40,6 @@ menuItem.forEach((item) => {
   });
 });
 
-
 // calling all listeners
 
 // Hiding Nav Icon
