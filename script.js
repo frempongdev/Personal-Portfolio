@@ -1,11 +1,11 @@
-// const container = document.body;
-// const navIcon = document.querySelector('.nav-icon');
-// const mobileNav = document.querySelector('.nav-wrapper');
-// const closeBtn = document.createElement('a');
-// const mobileNavBg = document.createElement('div');
-// const menuItem = document.querySelectorAll('.nav-wrapper li a');
+const container = document.body;
+const navIcon = document.querySelector('.nav-icon');
+const mobileNav = document.querySelector('.nav-wrapper');
+const closeBtn = document.createElement('a');
+const mobileNavBg = document.createElement('div');
+const menuItem = document.querySelectorAll('.nav-wrapper li a');
 
-// closeBtn.classList = 'x-btn';
+closeBtn.classList = 'x-btn';
 
 // function vanish() {
 //   navIcon.classList.toggle('mobile-nav');
