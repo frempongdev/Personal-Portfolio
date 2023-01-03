@@ -34,11 +34,11 @@ function hideMenu() {
   mobileNav.classList.remove('unhide-nav');
 }
 
-// for (let i = 0; i < menuItem.length; i + 1) {
-//   menuItem[i].addEventListener('click', () => {
-//     hideMenu();
-//   });
-// }
+for (let i = 0; i < menuItem.length; i + 1) {
+  menuItem[i].addEventListener('click', () => {
+    hideMenu();
+  });
+}
 
 // // calling all listeners
 
