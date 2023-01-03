@@ -1,8 +1,9 @@
-var container = document.body;
-var navIcon = document.querySelector('.nav-icon');
-var mobileNav = document.querySelector('.nav-wrapper');
-var closeBtn = document.createElement('a');
-var mobileNavBg = document.createElement('div');
+const container = document.body;
+const navIcon = document.querySelector('.nav-icon');
+const mobileNav = document.querySelector('.nav-wrapper');
+const closeBtn = document.createElement('a');
+const mobileNavBg = document.createElement('div');
+const menuItem = document.querySelectorAll('.nav-wrapper li a')
 
 closeBtn.classList='x-btn'; 
 
@@ -11,15 +12,15 @@ navIcon.addEventListener('click', vanish);
 navIcon.addEventListener('click', showMenu);
 closeBtn.addEventListener('click', hideMenu);
 
-function vanish(e){
+function vanish(){
     navIcon.classList.toggle('mobile-nav'); 
     
     //unhide all mbile nav items
     mobileNav.classList.toggle('unhide-nav', 'nav-wrapper');
 }
 
-function showMenu(e){
-    var header = document.querySelector('.head-top');
+function showMenu(){
+    const header = document.querySelector('.head-top');
     container.insertBefore(mobileNavBg, header);
    
     // styling the backgroung
@@ -31,9 +32,27 @@ function showMenu(e){
     navIcon.parentElement.insertBefore(closeBtn, navIcon);
 }
 
-function hideMenu(e){
+function hideMenu(){
     container.removeChild(mobileNavBg)
     navIcon.classList.toggle('mobile-nav'); 
     navIcon.parentElement.removeChild(closeBtn);
     mobileNav.classList.remove('unhide-nav');
 }
+
+for(let i=0; i<menuItem.length; i++){
+    menuItem[i].addEventListener('click', function(){
+        hideMenu();
+    });
+    
+
+}
+
+
+
+
+
+
+
+
+// function menuListener(e){
+// }

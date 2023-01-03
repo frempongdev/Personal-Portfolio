@@ -77,13 +77,13 @@
     list-style-type: none;
     margin-right: 35%;
   }
-  
+
   .main-nav ul li a {
-   text-decoration: none;
-   color: white;
-   font-size: 2.8rem;
-   font-weight: 600;
-  line-height: 44px;
+    text-decoration: none;
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 44px;
   }
 
   .headline {
@@ -162,10 +162,6 @@
     align-items: flex-end;
     width: 12rem;
     margin-top: 0.8rem;
-  }
-
-  .social-list-wrapper li {
-    size: 5rem;
   }
 
   /* End of  Intro Page ---------------------------------------------------------- */
