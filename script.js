@@ -25,6 +25,7 @@ function showMenu() {
   // creating close button
   closeBtn.innerHTML = 'x';
   navIcon.parentElement.insertBefore(closeBtn, navIcon);
+  container.style.overflowY = 'hidden';
 }
 
 function hideMenu() {
@@ -32,6 +33,7 @@ function hideMenu() {
   navIcon.classList.toggle('mobile-nav');
   navIcon.parentElement.removeChild(closeBtn);
   mobileNav.classList.remove('unhide-nav');
+  container.style.removeProperty('overflow-y');
 }
 
 menuItem.forEach((item) => {
