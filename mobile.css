@@ -29,8 +29,6 @@
 
   .nav-wrapper {
     display: none;
-
-
   }
 
   .mobile-nav {
@@ -191,7 +189,6 @@
   .work-snapshot {
     display: flex;
     justify-content: center;
-
   }
 
   .work-snapshot img {
