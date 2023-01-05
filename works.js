@@ -208,11 +208,12 @@ const portfolioData = [
     //ADDING TECHNOLOGY LOOP
     const techLister = work.technologies;
     techLister.forEach((technology, pointer) => {
-        var techItem = document.createElement('li');
+        const techItem = document.createElement('li');
         techItem.innerHTML = technology;
         techListContainer.appendChild(techItem);
-
-    });
+    }
+    
+    );
 
     //ADDING SEE-WORK BUTTONS TO WORKS
     const seeWork = document.createElement("div");
@@ -221,9 +222,11 @@ const portfolioData = [
 
     const seeBtn = document.createElement("button");
     seeBtn.innerHTML = 'See Project';
+    seeBtn.setAttribute('project-index', index);
     seeWork.appendChild(seeBtn);
 });
 
+//APPENDING WORKS SECTION TO BODY (ON TOP OF ABOUT SECTION)
 body.insertBefore(portfolioContainer, about);
 
 //ADDING EVENT HANDLER FOR SEE BUTTONS
@@ -233,15 +236,32 @@ seeBtn.forEach((btn) => {
     btn.addEventListener('click', addModal);
   });
   
-  function addModal() {
+  function addModal(e) {
     // MODAL DISPLAY = BLOCK
     const modal = document.createElement('div');
     modal.classList.add("modal-container")
-    document.body.appendChild(modal);
+    document.body.appendChild(modal); // inserting modal into body
+
+    body.style.overflowY = 'hidden';
+
 
     const modalCard = document.createElement('div');
     modalCard.classList.add("modal-card")
     modal.appendChild(modalCard);
+
+    const popupHead = document.createElement('div');
+
+    // GETTING THE VARIOUS BUTTON INDEX ATTRIBUTE TO TARGET EXACT PROJECT
+    const projectIndex = e.target.getAttribute('data-project-index');
+    const project = portfolioData[projectIndex];
+
+    const titleElement = document.createElement('h2');
+    titleElement.textContent = project.title;
+
+
+ 
+    
+
 
 
   }

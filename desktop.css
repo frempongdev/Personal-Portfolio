@@ -514,4 +514,13 @@
     color: #b3bac5;
     resize: none;
   }
+
+    /* MODAL SECTION ----------------------------------------------------------  */
+    .modal-card {
+      display: block;
+      z-index: 99;
+      position: absolute;
+      height: 100vh;
+      background-color: red;
+    }
 }
