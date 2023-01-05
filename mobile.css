@@ -540,4 +540,12 @@
     color: #b3bac5;
     padding-right: 38px;
   }
+
+  /* MODAL SECTION ----------------------------------------------------------  */
+  .modal-container {
+    z-index: 99;
+    position: fixed;
+    height: 100vh;
+    background-color: red;
+  }
 }
