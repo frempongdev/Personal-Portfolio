@@ -168,8 +168,8 @@
     margin-top: 0.8rem;
   }
 
+  .get
   /* End of  Intro Page ---------------------------------------------------------- */
-
   .works-wrapper {
     padding: 7%;
     height: 700px;
@@ -177,13 +177,15 @@
 
   .works-section {
     background-color: white;
-    margin-top: 144px;
+    margin-top: 30%;
+    margin-left: 9%;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     height: 596px;
     display: grid;
     grid-template-rows: 40% 40% 20%;
     padding: 15px;
+    width: 75%;
   }
 
   .work-snapshot {
@@ -231,6 +233,37 @@
     text-decoration: none;
   }
 
+  .modal-buttons-container button {
+    background-color: white;
+    color: #396df2;
+    border: solid #396df2 1px;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 2.7%;
+    text-decoration: none;
+    width: 48%;
+  }
+
+  .resume-button button {
+    background-color: white;
+    color: #396df2;
+    border: solid #396df2 1px;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
   .forms-container form button {
     align-self: flex-start;
     border-radius: 8px;
@@ -254,6 +287,16 @@
     background-color: #2230d2;
   }
 
+  .resume-button button:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .resume-button button:focus {
+    color: white;
+    background-color: #2230d2;
+  }
+
   .forms-container form button:hover {
     background-color: #6070ff;
     color: white;
@@ -273,8 +316,8 @@
   .dec-details {
     display: flex;
     align-content: flex-start;
-    justify-content: space-between;
-    width: 65%;
+    justify-content: start;
+    width: 100%;
   }
 
   .dec-details > h4 {
@@ -283,6 +326,8 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
+    margin-right: 2%;
+    margin-left: 2%;
   }
 
   .grey-text {
@@ -305,20 +350,21 @@
 
   .work-tech ul {
     display: flex;
-    width: 60%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: start;
     padding-left: 0.01px;
   }
 
   .work-tech li {
     background-color: #ebebff;
     border-radius: 8px;
-    padding: 4px 12px;
+    padding: 3px 6px;
     list-style: none;
     color: #6070ff;
     font-size: 12px;
     font-weight: 500;
     line-height: 16px;
+    margin-right: 3%;
   }
 
   .multi-edit {
@@ -341,11 +387,6 @@
     background: #ffff url(assets/mobile/header-background-mobile.png);
     margin-top: 150px;
     padding-bottom: 100px;
-  }
-
-  .resume-button {
-    margin-top: 10px;
-    margin-left: 10px;
   }
 
   .arrow-style {
@@ -514,6 +555,18 @@
     font-family: "Poppins", sans-serif;
   }
 
+  .modal-project-container > * {
+    color: #7a869a;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 3% 0% 3% 3%;
+  }
+
+  .modal-buttons-container button > * {
+    padding-left: 11%;
+  }
+
   .forms-container form > * {
     margin-bottom: 20px;
     padding: 15px;
@@ -539,5 +592,92 @@
     line-height: 24px;
     color: #b3bac5;
     padding-right: 38px;
+  }
+
+  /* MODAL SECTION ----------------------------------------------------------  */
+
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: scroll;
+  }
+
+  .modal-card {
+    display: block;
+    z-index: 99;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: auto;
+    width: 80vw;
+    background-color: white;
+    border-radius: 16px;
+    padding: 3% 5%;
+  }
+
+  .modal-project-title {
+    font-size: 183%;
+    font-weight: 700;
+    line-height: 44px;
+    margin: 5% 0% 0% 0%;
+  }
+
+  .popup-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .modal-close-btn {
+    border: none;
+    background: none;
+  }
+
+  .modal-close-img {
+    color: #7c8b9c;
+    width: 12px;
+    height: 12px;
+  }
+
+  .modal-project-container {
+    display: flex;
+    justify-self: start;
+    align-items: center;
+  }
+
+  #mdpj-company {
+    color: black;
+  }
+
+  #mdpj-img {
+    max-width: 100%;
+  }
+
+  .modal-card p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .modal-project-technology ul {
+    width: 90%;
+  }
+
+  .divider {
+    background-color: #ebecf0;
+    height: 1px;
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .modal-buttons-container {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 }
