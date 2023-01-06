@@ -573,6 +573,14 @@
     resize: none;
   }
 
+  #errorMsg {
+    border: white dotted 2px;
+    color: white;
+    margin: -1% 0% 0% 0%;
+    padding: 1% 4% 1% 4%;
+
+  }
+
   /* MODAL SECTION ----------------------------------------------------------  */
   .modal-container {
     position: fixed;

@@ -594,6 +594,14 @@
     padding-right: 38px;
   }
 
+  #errorMsg {
+    border: white dotted 2px;
+    color: white;
+    margin: -6% 0% 0% 0%;
+    padding: 1% 13% 0% 13%;
+
+  }
+
   /* MODAL SECTION ----------------------------------------------------------  */
 
   .modal-container {
