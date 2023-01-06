@@ -17,9 +17,9 @@ const portfolioData = [
       technologies: ["html", "css", "javascript"],
       imageMobile: "assets/works-snapshot/Snapshoot Portfolio 1.png",
       imageDesktop: "assets/desktop/Desktop-work-snapshot-1.png",
+      modalImage: "assets/desktop/modal/modal-work-snapshot-1.png",
       dotImage:'assets/mobile/dot.png',
-      paragraph1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
       liveLink:'#',
       sourceLink:'#',
     },
@@ -38,9 +38,9 @@ const portfolioData = [
       technologies: ["html", "Ruby on rails", "css", "javascript"],
       imageMobile: "assets/works-snapshot/Snapshoot Portfolio 2.png",
       imageDesktop: "assets/desktop/Desktop-work-snapshot-2.png",
+      modalImage: "assets/desktop/modal/modal-work-snapshot-2.png",
       dotImage:'assets/mobile/dot.png',
-      paragraph1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
       liveLink:'#',
       sourceLink:'#',    },
     {
@@ -58,9 +58,9 @@ const portfolioData = [
       technologies: ["html", "Ruby on rails", "css", "javascript"],
       imageMobile: "assets/works-snapshot/Snapshoot Portfolio 3.png",
       imageDesktop: "assets/desktop/Desktop-work-snapshot-3.png",
+      modalImage: "assets/desktop/modal/modal-work-snapshot-3.png",
       dotImage:'assets/mobile/dot.png',
-      paragraph1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
       liveLink:'#',
       sourceLink:'#',    },
     {
@@ -78,8 +78,9 @@ const portfolioData = [
       technologies: ["html", "Ruby on rails", "css", "javascript"],
       imageMobile: "assets/works-snapshot/Snapshoot Portfolio 4.png",
       imageDesktop: "assets/desktop/Desktop-work-snapshot-4.png",
+      modalImage: "assets/desktop/modal/modal-work-snapshot-4.png",
       dotImage:'assets/mobile/dot.png',paragraph1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
       liveLink:'#',
       sourceLink:'#',    }
   ];
@@ -254,6 +255,7 @@ seeBtn.forEach((btn) => {
   
   function addModal(e) {
     // MODAL DISPLAY = BLOCK
+
     const modal = document.createElement('div');
     modal.classList.add("modal-container")
     document.body.appendChild(modal); // inserting modal into body
@@ -276,12 +278,19 @@ seeBtn.forEach((btn) => {
     //POPUP ELEMENTS ADDED HERE
     const titleElement = document.createElement('h2');
     titleElement.textContent = project.title;
-    titleElement.classList.add('modal-project-title');
+    titleElement.classList.add('modal-project-title','mobile-text');
     popupHead.appendChild(titleElement);
+
+    const titleElement2 = document.createElement('h2');
+    titleElement2.textContent = project.title2;
+    titleElement2.classList.add('modal-project-title2','desktop-text');
+    popupHead.appendChild(titleElement2);
 
     const closeBtn = document.createElement('button');
     closeBtn.classList.add('modal-close-btn');
     popupHead.appendChild(closeBtn);
+
+    //FUNCTION TO REMOVE MODAL ON CLOSE BUTTON CLICKED
 
     const closeBtnImg = document.createElement('img');
     closeBtnImg.setAttribute('src', 'assets/images/close-btn.png');
@@ -299,6 +308,12 @@ seeBtn.forEach((btn) => {
     modalProjectCompany.setAttribute('id','mdpj-company');
     modalProjectCompany.innerHTML = project.company;
     modalProjectDetails.appendChild(modalProjectCompany);
+   
+    const modalProjectCompany2 = document.createElement("h4");
+    modalProjectCompany2.classList.add("desktop-text");
+    modalProjectCompany2.setAttribute('id','mdpj-company2');
+    modalProjectCompany2.innerHTML = project.company2;
+    modalProjectDetails.appendChild(modalProjectCompany2);
     
     const dot = document.createElement('img');
     dot.classList.add("mobile-dot");
@@ -312,14 +327,20 @@ seeBtn.forEach((btn) => {
     modalProjectRole.innerHTML = project.role1;
     modalProjectDetails.appendChild(modalProjectRole);
 
+    const modalProjectRole2 = document.createElement("h4");
+    modalProjectRole2.classList.add("desktop-text");
+    modalProjectRole2.setAttribute('id','mdpj-role2');
+    modalProjectRole2.innerHTML = project.role2;
+    modalProjectDetails.appendChild(modalProjectRole2);
+
     const dotCopy = dot.cloneNode();
     modalProjectDetails.appendChild(dotCopy);
    
-    const modalProjectYear = document.createElement("h4");
-    modalProjectYear.classList.add("mobile-text");
-    modalProjectYear.setAttribute('id','mdpj-year');
-    modalProjectYear.innerHTML = project.year1;
-    modalProjectDetails.appendChild(modalProjectYear);
+    const modalProjectYear2 = document.createElement("h4");
+    modalProjectYear2.classList.add("desktop-text");
+    modalProjectYear2.setAttribute('id','mdpj-year2');
+    modalProjectYear2.innerHTML = project.year2;
+    modalProjectDetails.appendChild(modalProjectYear2);
 
     //ADDING MODAL PROJECT IMAGE
     const modalImage = document.createElement("img");
@@ -328,12 +349,24 @@ seeBtn.forEach((btn) => {
     modalImage.src = project.imageMobile;
     modalImage.alt = `${workRef.title} snapshot`;
     modalCard.appendChild(modalImage);
+   
+    const modalImage2 = document.createElement("img");
+    modalImage2.classList.add("desktop-pic");
+    modalImage2.setAttribute('id','mdpj-img2');
+    modalImage2.src = project.modalImage;
+    modalImage2.alt = `${workRef.title2} snapshot`;
+    modalCard.appendChild(modalImage2);
     
     //ADDING MODAL PROJECT PARAGRAPH
     const modalParagraph = document.createElement("p");
     modalParagraph.classList.add("mdpj-paragraph");
-    modalParagraph.innerHTML = project.paragraph1;
+    modalParagraph.innerHTML = project.paragraph;
     modalCard.appendChild(modalParagraph);
+
+    // const modalParagraph2 = document.createElement("p");
+    // modalParagraph2.classList.add("desktop-text","mdpj-paragraph2");
+    // modalParagraph2.innerHTML = project.paragraph;
+    // modalCard.appendChild(modalParagraph2);
 
     //ADDING MODAL PROJECT TECHNOLOGIES
     const modalTechnologyContainer = document.createElement("div");
@@ -366,7 +399,7 @@ seeBtn.forEach((btn) => {
     const modalLiveBtnImage = document.createElement("img");
     modalLiveBtnImage.classList.add('modal-live-button-img');
     modalLiveBtnImage.src = "assets/images/live-btn.png";
-    modalImage.alt = `modal-live-button-image`;
+    modalLiveBtnImage.alt = `modal-live-button-image`;
     liveButton.appendChild(modalLiveBtnImage);
 
     const sourceButton = document.createElement('button');
@@ -377,7 +410,7 @@ seeBtn.forEach((btn) => {
     const modalSourceBtnImage = document.createElement("img");
     modalSourceBtnImage.classList.add('modal-source-button-img');
     modalSourceBtnImage.src = "assets/images/source-btn.png";
-    modalImage.alt = `modal-source-button-image`;
+    modalSourceBtnImage.alt = `modal-source-button-image`;
     sourceButton.appendChild(modalSourceBtnImage);
 
 
