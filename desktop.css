@@ -33,12 +33,13 @@
   .work-tech li {
     background-color: #ebebff;
     border-radius: 8px;
-    padding: 4px 12px;
+    padding: 3px 6px;
     list-style: none;
     color: #6070ff;
     font-size: 12px;
     font-weight: 500;
     line-height: 16px;
+    margin-right: 3%;
   }
 
   .language-list-container li {
@@ -213,9 +214,14 @@
   .dec-details {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 55%;
+    justify-content: start;
+    width: 100%;
   }
+
+  .dec-details > * {
+    margin-right: 2%;
+  }
+
 
   .desc-wrapper h2 {
     font-family: "Poppins", sans-serif;
@@ -246,13 +252,9 @@
 
   .work-tech ul {
     display: flex;
-    width: 55%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: start;
     padding-left: 0.01px;
-  }
-
-  .small-ul-spacing ul {
-    width: 35%;
   }
 
   .see-work button {
@@ -435,6 +437,32 @@
     padding-bottom: 3%;
   }
 
+  .resume-button button {
+    background-color: white;
+    color: #396df2;
+    border: solid #396df2 1px;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .resume-button button:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .resume-button button:focus {
+    color: white;
+    background-color: #2230d2;
+  }
+
   /* CONATCT SECTION STARTS HERE ------------------------------------------------------------------------------------------- */
 
   .forms-section {
@@ -516,11 +544,124 @@
   }
 
     /* MODAL SECTION ----------------------------------------------------------  */
-    .modal-card {
+    /* .modal-card {
       display: block;
       z-index: 99;
       position: absolute;
       height: 100vh;
       background-color: red;
+    } */
+
+    .modal-container {
+      position: fixed; 
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
     }
+  
+    .modal-card {
+      display: block;
+      z-index: 99;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      height: 85vh;
+      width: 80vw;
+      background-color: white;
+      border-radius: 16px;
+      padding: 3% 5%;
+    }
+
+    .modal-project-title {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 52px;
+      margin: 5% 0% 0% 0%;
+    }
+
+    .popup-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-close-btn {
+      border: none;
+      background: none;
+    }
+
+    .modal-close-img {
+      color: #7c8b9c;
+      width: 12px;
+      height: 12px;
+    }
+
+    .modal-project-container {
+      display: flex;
+      justify-self: start;
+      align-items: center;
+    }
+
+    .modal-project-container > * {
+      color: #7a869a;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      margin: 3% 0% 3% 3%;
+    }
+
+    #mdpj-company {
+      color: black;
+    }
+
+    #mdpj-img {
+      max-width: 100%;
+    }
+
+    .modal-card p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+
+    .modal-project-technology ul {
+      width: 30%;
+    }
+
+    .divider {
+      background-color: #ebecf0;
+      height: 1px;
+      width: 30%;
+      margin-top: 10%;
+    }
+
+    .modal-buttons-container {
+      margin-top: 10%;
+      width: 33%;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .modal-buttons-container button {
+      background-color: white;
+      color: #396df2;
+      border: solid #396df2 1px;
+      border-radius: 10px;
+      align-self: center;
+      font-size: 17px;
+      line-height: 24px;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      padding: 15px;
+      text-decoration: none;
+      width: 48%;
+    }
+  
+    .modal-buttons-container button > *{
+      padding-left: 11%;
+    }
+  
+  
 }
