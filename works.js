@@ -255,7 +255,9 @@ seeBtn.forEach((btn) => {
   
   function addModal(e) {
     // MODAL DISPLAY = BLOCK
-
+    if (document.querySelector('.modal-container')!==null){
+          document.body.removeChild(document.querySelector('.modal-container'))
+        }
     const modal = document.createElement('div');
     modal.classList.add("modal-container")
     document.body.appendChild(modal); // inserting modal into body
@@ -291,6 +293,9 @@ seeBtn.forEach((btn) => {
     popupHead.appendChild(closeBtn);
 
     //FUNCTION TO REMOVE MODAL ON CLOSE BUTTON CLICKED
+      document.querySelector('.modal-close-btn').addEventListener('click',()=>{
+      modal.style.display = 'none';
+    });
 
     const closeBtnImg = document.createElement('img');
     closeBtnImg.setAttribute('src', 'assets/images/close-btn.png');
