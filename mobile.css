@@ -169,9 +169,7 @@
   }
 
   .get
-
   /* End of  Intro Page ---------------------------------------------------------- */
-
   .works-wrapper {
     padding: 7%;
     height: 700px;
@@ -235,6 +233,37 @@
     text-decoration: none;
   }
 
+  .modal-buttons-container button {
+    background-color: white;
+    color: #396df2;
+    border: solid #396df2 1px;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 15px;
+    text-decoration: none;
+    width: 48%;
+  }
+
+  .resume-button button {
+    background-color: white;
+    color: #396df2;
+    border: solid #396df2 1px;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
   .forms-container form button {
     align-self: flex-start;
     border-radius: 8px;
@@ -254,6 +283,16 @@
   }
 
   .see-work button:focus {
+    color: white;
+    background-color: #2230d2;
+  }
+
+  .resume-button button:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .resume-button button:focus {
     color: white;
     background-color: #2230d2;
   }
@@ -465,31 +504,7 @@
     line-height: 24px;
   }
 
-  .resume-button button {
-    background-color: white;
-    color: #396df2;
-    border: solid #396df2 1px;
-    border-radius: 10px;
-    align-self: center;
-    font-size: 17px;
-    line-height: 24px;
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    padding: 15px;
-    text-decoration: none;
-    margin-top: 10px;
-    margin-left: 10px;
-  }
 
-  .resume-button button:hover {
-    background-color: #6070ff;
-    color: white;
-  }
-
-  .resume-button button:focus {
-    color: white;
-    background-color: #2230d2;
-  }
 
   /* CONTACT SECTION STARTS HERE ------------------------------------------------ */
 
@@ -540,6 +555,19 @@
     font-family: "Poppins", sans-serif;
   }
 
+
+  .modal-project-container > * {
+    color: #7a869a;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 3% 0% 3% 3%;
+  }
+
+  .modal-buttons-container button > * {
+    padding-left: 11%;
+  }
+
   .forms-container form > * {
     margin-bottom: 20px;
     padding: 15px;
@@ -570,7 +598,7 @@
   /* MODAL SECTION ----------------------------------------------------------  */
 
   .modal-container {
-    position: fixed; 
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -621,14 +649,6 @@
     align-items: center;
   }
 
-  .modal-project-container > * {
-    color: #7a869a;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-    margin: 3% 0% 3% 3%;
-  }
-
   #mdpj-company {
     color: black;
   }
@@ -660,28 +680,4 @@
     display: flex;
     justify-content: space-between;
   }
-
-  .modal-buttons-container button {
-    background-color: white;
-    color: #396df2;
-    border: solid #396df2 1px;
-    border-radius: 10px;
-    align-self: center;
-    font-size: 17px;
-    line-height: 24px;
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    padding: 15px;
-    text-decoration: none;
-    width: 48%;
-  }
-
-  .modal-buttons-container button > *{
-    padding-left: 11%;
-  }
-
-
-
-
-
 }

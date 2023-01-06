@@ -222,7 +222,6 @@
     margin-right: 2%;
   }
 
-
   .desc-wrapper h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -257,6 +256,37 @@
     padding-left: 0.01px;
   }
 
+  .modal-buttons-container button {
+    background-color: white;
+    color: #396df2;
+    border: solid #396df2 1px;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 5% 3% 5% 3%;
+    text-decoration: none;
+    width: 48%;
+  }
+
+  .resume-button button {
+    background-color: white;
+    color: #396df2;
+    border: solid #396df2 1px;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
   .see-work button {
     background-color: white;
     color: #396df2;
@@ -284,6 +314,16 @@
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: white;
+  }
+
+  .resume-button button:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .resume-button button:focus {
+    color: white;
+    background-color: #2230d2;
   }
 
   .see-work button:hover {
@@ -437,31 +477,7 @@
     padding-bottom: 3%;
   }
 
-  .resume-button button {
-    background-color: white;
-    color: #396df2;
-    border: solid #396df2 1px;
-    border-radius: 10px;
-    align-self: center;
-    font-size: 17px;
-    line-height: 24px;
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    padding: 15px;
-    text-decoration: none;
-    margin-top: 10px;
-    margin-left: 10px;
-  }
 
-  .resume-button button:hover {
-    background-color: #6070ff;
-    color: white;
-  }
-
-  .resume-button button:focus {
-    color: white;
-    background-color: #2230d2;
-  }
 
   /* CONATCT SECTION STARTS HERE ------------------------------------------------------------------------------------------- */
 
@@ -493,6 +509,14 @@
     align-self: center;
   }
 
+  .modal-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 68%;
+    margin-top: 0%;
+  }
+
   .contact-info p {
     color: white;
     font-size: 20px;
@@ -514,6 +538,14 @@
     flex-direction: column;
     align-items: center;
     font-family: "Poppins", sans-serif;
+  }
+
+  .modal-project-container > * {
+    color: #7a869a;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    margin: 1% 2% 1% 0%;
   }
 
   .forms-container form > * {
@@ -543,125 +575,97 @@
     resize: none;
   }
 
-    /* MODAL SECTION ----------------------------------------------------------  */
-    .modal-container {
-      position: fixed; 
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(0, 0, 0, 0.5);
-    }
-  
-    .modal-card {
-      display: block;
-      z-index: 99;
-      position: absolute;
-      top: 5%;
-      left: 5%;
-      height: 85vh;
-      width: 60vw;
-      background-color: white;
-      border-radius: 16px;
-      padding: 1% 1%;
-    }
+  /* MODAL SECTION ----------------------------------------------------------  */
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 
-    .modal-project-title2 {
-      font-size: 40px;
-      font-weight: 700;
-      line-height: 52px;
-      margin: 0% 0% 0% 0%;
-    }
+  .modal-card {
+    display: block;
+    z-index: 99;
+    position: absolute;
+    top: 5%;
+    left: 17%;
+    height: 85vh;
+    width: 65vw;
+    background-color: white;
+    border-radius: 16px;
+    padding: 1% 1%;
+  }
 
-    .popup-head {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+  .modal-project-title2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    margin: 0% 0% 0% 0%;
+  }
 
-    .modal-close-btn {
-      border: none;
-      background: none;
-    }
+  .popup-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .modal-close-img {
-      color: #7c8b9c;
-      width: 12px;
-      height: 12px;
-    }
+  .modal-close-btn {
+    border: none;
+    background: none;
+  }
 
-    .modal-project-container {
-      display: flex;
-      justify-self: start;
-      align-items: center;
-      margin-bottom: 1%;
-    }
+  .modal-close-img {
+    color: #7c8b9c;
+    width: 12px;
+    height: 12px;
+  }
 
-    .modal-project-container > * {
-      color: #7a869a;
-      font-weight: 600;
-      font-size: 15px;
-      line-height: 16px;
-      margin: 1% 2% 1% 0%;
-    }
+  .modal-project-container {
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    margin-bottom: 1%;
+  }
 
-    #mdpj-company {
-      color: black;
-    }
+  #mdpj-company {
+    color: black;
+  }
 
-    #mdpj-img2 {
-      max-height: 54%;
-    }
+  #mdpj-img2 {
+    max-height: 54%;
+    width: 100%;
+    aspect-ratio: 3 / 0;
+  }
 
-    #mdpj-img2 {
-      width: 100%;
-      aspect-ratio: 3 / 0;
-    }
+  .modal-lower-section {
+    display: flex;
+  }
 
-    .modal-card p {
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 30px;
-      width: 73%;
+  .modal-lower-right-section {
+    width: 34%;
+  }
 
-    }
+  .modal-project-technology ul {
+    width: 115%;
+  }
 
-    .modal-project-technology ul {
-      width: 30%;
-    }
+  .divider {
+    background-color: #ebecf0;
+    height: 1px;
+    width: 30%;
+    margin-top: 5%;
+  }
 
-    .divider {
-      background-color: #ebecf0;
-      height: 1px;
-      width: 30%;
-      margin-top: 10%;
-    }
+  .modal-buttons-container {
+    margin-top: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .modal-buttons-container {
-      margin-top: 10%;
-      width: 33%;
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    .modal-buttons-container button {
-      background-color: white;
-      color: #396df2;
-      border: solid #396df2 1px;
-      border-radius: 10px;
-      align-self: center;
-      font-size: 17px;
-      line-height: 24px;
-      font-weight: 500;
-      letter-spacing: 0.03em;
-      padding: 15px;
-      text-decoration: none;
-      width: 48%;
-    }
-  
-    .modal-buttons-container button > *{
-      padding-left: 11%;
-    }
-  
-  
+  .modal-buttons-container button > * {
+    padding-left: 11%;
+  }
 }
