@@ -251,7 +251,7 @@ portfolioData.forEach((work, index) => {
 });
 
 // APPENDING WORKS SECTION TO BODY (ON TOP OF ABOUT SECTION)
-body.insertBefore(portfolioContainer, about);
+document.insertBefore(portfolioContainer, about);
 
 // ADDING EVENT HANDLER FOR SEE BUTTONS
 const seeBtn = document.querySelectorAll('.see-work button');
