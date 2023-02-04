@@ -3,24 +3,24 @@ const about = document.querySelector('.about');
 
 const portfolioData = [
   {
-    title: 'Tonic',
+    title: 'Accra Esports Festival',
     title2: 'Accra Esports Festival',
-    company: 'CANOPY',
+    company: 'GESF',
     company2: 'GESF',
-    role1: 'Back End Dev',
+    role1: 'Front End Dev',
     role2: 'Front End Dev',
     role3: 'Lead Developer',
-    year1: '2015',
+    year1: '2022',
     year2: '2022',
-    description1: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description1: 'An Event for all Gamers and Esports Enthusiasts held in the capital of Ghana',
     description2: 'An Event for all Gamers and Esports Enthusiasts held in the capital of Ghana',
     technologies: ['html', 'css', 'javascript'],
-    imageMobile: 'assets/works-snapshot/Snapshoot Portfolio 1.png',
+    imageMobile: 'assets/works-snapshot/Snapshoot Portfolio 12.png',
     imageDesktop: 'assets/desktop/Desktop-work-snapshot-11.png',
     modalImage: 'assets/desktop/modal/modal-work-snapshot-11.png',
     dotImage: 'assets/mobile/dot.png',
     paragraph: "Our Elecronic Sports Festival brings together the broad community of Gamers who are willing to share knowledge, experience and skill. This festival also provides a platform for up-and-coming gamers to showcase their talents and potentially launch their careers.  In addition to competition, we also offer workshops we call 'E-Talk' for attendees to learn from industry experts. ",
-    liveLink: 'https://frempongdev.github.io/Accra-Esports-Festival/',
+    liveLink: 'location.href="https://frempongdev.github.io/Accra-Esports-Festival/"',
     sourceLink: 'location.href="https://github.com/frempongdev/Accra-Esports-Festival"',
   },
   {
@@ -412,6 +412,7 @@ function addModal(e) {
   const liveButton = document.createElement('button');
   liveButton.classList.add('project-live-button');
   liveButton.innerHTML = 'See live';
+  liveButton.setAttribute('onclick', project.liveLink);
   modalButonsContainer.appendChild(liveButton);
 
   const modalLiveBtnImage = document.createElement('img');
