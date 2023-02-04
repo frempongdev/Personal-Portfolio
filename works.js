@@ -4,24 +4,24 @@ const about = document.querySelector('.about');
 const portfolioData = [
   {
     title: 'Tonic',
-    title2: 'Tonic',
+    title2: 'Accra Esports Festival',
     company: 'CANOPY',
-    company2: 'CANOPY',
+    company2: 'GESF',
     role1: 'Back End Dev',
-    role2: 'Back End Dev',
+    role2: 'Front End Dev',
     role3: 'Lead Developer',
     year1: '2015',
-    year2: '2015',
+    year2: '2022',
     description1: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    description2: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description2: 'An Event for all Gamers and Esports Enthusiasts held in the capital of Ghana',
     technologies: ['html', 'css', 'javascript'],
     imageMobile: 'assets/works-snapshot/Snapshoot Portfolio 1.png',
-    imageDesktop: 'assets/desktop/Desktop-work-snapshot-1.png',
-    modalImage: 'assets/desktop/modal/modal-work-snapshot-1.png',
+    imageDesktop: 'assets/desktop/Desktop-work-snapshot-11.png',
+    modalImage: 'assets/desktop/modal/modal-work-snapshot-11.png',
     dotImage: 'assets/mobile/dot.png',
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    liveLink: '#',
-    sourceLink: '#',
+    paragraph: "Our Elecronic Sports Festival brings together the broad community of Gamers who are willing to share knowledge, experience and skill. This festival also provides a platform for up-and-coming gamers to showcase their talents and potentially launch their careers.  In addition to competition, we also offer workshops we call 'E-Talk' for attendees to learn from industry experts. ",
+    liveLink: 'https://frempongdev.github.io/Accra-Esports-Festival/',
+    sourceLink: 'location.href="https://github.com/frempongdev/Accra-Esports-Festival"',
   },
   {
     title: 'Multi-Post Stories',
@@ -423,6 +423,7 @@ function addModal(e) {
   const sourceButton = document.createElement('button');
   sourceButton.classList.add('project-source-button');
   sourceButton.innerHTML = 'See Source';
+  sourceButton.setAttribute('onclick', project.sourceLink);
   modalButonsContainer.appendChild(sourceButton);
 
   const modalSourceBtnImage = document.createElement('img');
