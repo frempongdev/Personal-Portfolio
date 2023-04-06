@@ -597,11 +597,19 @@
     position: absolute;
     top: 5%;
     left: 17%;
-    height: 85vh;
-    width: 65vw;
+    max-height: 85vh;
+    max-width: 65vw;
     background-color: white;
     border-radius: 16px;
     padding: 1% 1%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+
+  .modal-card::-webkit-scrollbar {
+    display: none;
   }
 
   .modal-project-title2 {
