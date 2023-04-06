@@ -126,7 +126,11 @@ portfolioData.forEach((work, index) => {
   worksSection.classList.add('works-section');
 
   const workSnapshot = document.createElement('div');
-  workSnapshot.classList.add('work-snapshot');
+  if (index % 2 === 1) {
+    workSnapshot.classList.add('work-snapshot', 'swap');
+  } else {
+    workSnapshot.classList.add('work-snapshot');
+  }
 
   const imageMobile = document.createElement('img');
   imageMobile.classList.add('mobile-pic');
