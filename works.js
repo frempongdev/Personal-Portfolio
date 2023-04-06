@@ -80,7 +80,7 @@ const portfolioData = [
     technologies: ['html5', 'rest API', 'css3', 'javascript'],
     imageMobile: 'assets/works-snapshot/Snapshoot Portfolio 4.png',
     imageDesktop: 'assets/desktop/Desktop-work-snapshot-4.png',
-    modalImage: 'assets/desktop/modal/modal-work-snapshot-4.jpg',
+    modalImage: 'assets/desktop/modal/modal-work-snapshot-4.JPG',
     dotImage: 'assets/mobile/dot.png',
     paragraph1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     paragraph: 'This project is an application that is used by Gamers to save and rank their scores. It solves the problem of improper record keeping of scores for Fifa 23 players.',
