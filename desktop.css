@@ -16,13 +16,15 @@
   }
 
   .head-top {
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.8);
     display: flex;
     justify-content: space-between;
     height: 50px;
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
+    position: sticky;
+    top: 0;
   }
 
   .nav-icon {
