@@ -586,6 +586,27 @@
     padding: 1% 4% 1% 4%;
   }
 
+  .email-down {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .email-down p {
+    font-size: 2vh;
+  }
+
+  .email-down a {
+    color: rgb(181, 181, 181);
+    transition: color 0.5s;
+  }
+  
+  .email-down a:hover {
+    color: white;
+  }
+
+
+
   /* MODAL SECTION ----------------------------------------------------------  */
   .modal-container {
     position: fixed;
