@@ -204,7 +204,6 @@
   /* End of  Intro Page ---------------------------------------------------------- */
   .works-wrapper {
     padding: 7%;
-    height: 700px;
   }
 
   .works-section {
@@ -213,9 +212,7 @@
     margin-left: 9%;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    height: 596px;
     display: grid;
-    grid-template-rows: 40% 40% 20%;
     padding: 15px;
     width: 75%;
   }
@@ -231,7 +228,6 @@
   }
 
   .work-description {
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -283,7 +279,7 @@
   .resume-button button {
     background-color: white;
     color: #396df2;
-    border: solid #396df2 1px;
+    border: solid #7b9ef5 1px;
     border-radius: 10px;
     align-self: center;
     font-size: 17px;
@@ -416,6 +412,7 @@
   }
 
   .about {
+    min-height: 100vh;
     background: #ffff url(assets/mobile/header-background-mobile.png);
     margin-top: 150px;
     padding-bottom: 100px;
@@ -428,6 +425,7 @@
   }
 
   .about-technical-container {
+    margin-top: 20%;
     padding-top: 20px;
   }
 
@@ -441,11 +439,11 @@
   .languages-container {
     display: flex;
     justify-content: space-between;
-    width: 90%;
     margin-bottom: 30px;
   }
 
   .languages {
+    width: 84%;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
@@ -462,7 +460,6 @@
 
   .JS {
     display: flex;
-    width: 200%;
     background-color: #f7f7f9;
     align-items: center;
     padding: 10px;
@@ -478,7 +475,6 @@
 
   .HTML {
     display: flex;
-    width: 200%;
     background-color: #f7f7f9;
     align-items: center;
     padding: 10px;
@@ -494,7 +490,6 @@
 
   .CSS {
     display: flex;
-    width: 200%;
     background-color: #f7f7f9;
     align-items: center;
     padding: 10px;
@@ -512,12 +507,10 @@
     border-bottom: #dfe1e6 solid 1px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    height: 80px;
   }
 
   .frameworks {
+    width: 84%;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
@@ -527,12 +520,11 @@
     border-bottom: #dfe1e6 solid 1px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    height: 80px;
+    padding-top: 5%;
   }
 
   .skills {
+    width: 84%;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
