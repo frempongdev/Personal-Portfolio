@@ -447,7 +447,7 @@ function addModal(e) {
   const techListContainer = document.createElement('ul');
   modalTechnologyContainer.appendChild(techListContainer);
 
-  const techLister = workRef.technologies;
+  const techLister = project.technologies;
   techLister.forEach((technology) => {
     const techItem = document.createElement('li');
     techItem.innerHTML = technology;
