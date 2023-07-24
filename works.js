@@ -35,7 +35,7 @@ const portfolioData = [
     year2: '2023',
     description1: 'A Single Page Application for stock investors and anyone else interested in the prices of stocks in the Global Stocks market.',
     description2: 'A Single Page Application for stock investors and anyone else interested in the prices of stocks in the Global Stocks market.',
-    technologies: ['React/Redux', 'javascript', 'html5', 'css3'],
+    technologies: ['React/Redux', 'javascript', 'css3'],
     imageMobile: 'assets/works-snapshot/Snapshoot Portfolio 2.png',
     imageDesktop: 'assets/desktop/Desktop-work-snapshot-22.png',
     modalImage: 'assets/desktop/modal/modal-work-snapshot-2.jpg',
@@ -56,7 +56,7 @@ const portfolioData = [
     year2: '2023',
     description1: 'Math Magician is a project that merges the idea of math and mathematical quotes.',
     description2: 'Math Magician is a project that merges the idea of math and mathematical quotes.',
-    technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
+    technologies: ['React/Redux', 'javascript', 'css3'],
     imageMobile: 'assets/works-snapshot/Snapshoot Portfolio 3.png',
     imageDesktop: 'assets/desktop/Desktop-work-snapshot-3.png',
     modalImage: 'assets/desktop/modal/modal-work-snapshot-3.jpg',
@@ -99,7 +99,7 @@ const portfolioData = [
     year2: '2023',
     description1: 'A mini Android Phone Shop that users can Add phones fetched from an API to their cart',
     description2: 'A mini Android Phone Shop that users can Add phones fetched from an API to their cart',
-    technologies: ['Raect/Redux', 'JavaScript', 'html5', 'css3'],
+    technologies: ['Raect/Redux', 'JavaScript', 'css3'],
     imageMobile: 'assets/works-snapshot/Snapshoot Portfolio 5.png',
     imageDesktop: 'assets/desktop/Desktop-work-snapshot-5.png',
     modalImage: 'assets/desktop/modal/modal-work-snapshot-5.jpg',
@@ -369,6 +369,12 @@ function addModal(e) {
 
   const dotCopy = dot.cloneNode();
   modalProjectDetails.appendChild(dotCopy);
+
+  const modalProjectYear = document.createElement('h4');
+  modalProjectYear.classList.add('mobile-text');
+  modalProjectYear.setAttribute('id', 'mdpj-year1');
+  modalProjectYear.innerHTML = project.year1;
+  modalProjectDetails.appendChild(modalProjectYear);
 
   const modalProjectYear2 = document.createElement('h4');
   modalProjectYear2.classList.add('desktop-text');
