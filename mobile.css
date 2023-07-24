@@ -1,5 +1,9 @@
 @media screen and (max-width: 768px) {
   /* MOBILE VERSION------------------------------------------------------------------- */
+  html {
+    scroll-behavior: smooth;
+  }
+  
   body {
     background-color: #e5e5e5;
     margin-top: 0.01px;
